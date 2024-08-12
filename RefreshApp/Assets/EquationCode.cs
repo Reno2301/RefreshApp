@@ -84,8 +84,6 @@ public class EquationCode : MonoBehaviour
 
             answerFloat = aInt / bInt;
         }
-
-        Debug.Log("MultiplyCount: " + multiplyCount + ", DivideCount: " + divideCount);
     }
 
     public bool IsDivisible(int x, int n)
@@ -153,7 +151,7 @@ public class EquationCode : MonoBehaviour
         checkImage.gameObject.SetActive(false);
         checkImage.color = new Color(1, 1, 1, 0.25f);
 
-        Debug.Log("Wrong! Try again :)");
+        Debug.Log("Wrong! Try again");
 
         answerInputField.ActivateInputField();
     }
