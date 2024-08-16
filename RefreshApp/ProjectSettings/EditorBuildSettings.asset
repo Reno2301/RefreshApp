@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MathScene.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: a7b83e01ad54c034a8c4547e87ecb340
+  - enabled: 1
+    path: Assets/Scenes/Math.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Math1.unity
+    guid: 86fb3cfb365353f4ebf4e9c07bae0c6e
   m_configObjects: {}

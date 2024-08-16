@@ -129,6 +129,8 @@ public class EquationCode : MonoBehaviour
 
     private IEnumerator Correct()
     {
+        PlayerPrefs.SetInt("mathcorrect", PlayerPrefs.GetInt("mathcorrect") + 1);
+
         checkImage.gameObject.SetActive(true);
         checkImage.color = new Color(0, 1, 0, 0.25f);
 
@@ -143,6 +145,8 @@ public class EquationCode : MonoBehaviour
 
     private IEnumerator Wrong()
     {
+        PlayerPrefs.SetInt("mathwrong", PlayerPrefs.GetInt("mathwrong") + 1);
+
         checkImage.gameObject.SetActive(true);
         checkImage.color = new Color(1, 0, 0, 0.25f);
 
